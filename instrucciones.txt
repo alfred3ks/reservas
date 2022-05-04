@@ -1,0 +1,23 @@
+Instrucciones para creacion de la base de datos:
+
+Creamos la base de datos en MySQL:
+
+Creamos un base de datos llamada reservas_db
+
+DROP TABLE IF EXISTS usuarios;
+
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    servicio varchar(50) NOT NULL,
+    fecha date NOT NULL,
+    hora time NOT NULL,
+    nombre varchar(50) NOT NULL,
+    apellido varchar(50) NOT NULL,
+    telefono varchar(50) NOT NULL,
+    email varchar(50) NOT NULL,
+    privacidad bit NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+Para vaciar la table:
+TRUNCATE TABLE usuario;
+

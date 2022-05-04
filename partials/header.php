@@ -1,4 +1,4 @@
-</header>
-    <img src="" alt="">
-    <h1>APP de Reservas</h1>
+<header class="header">
+    <img src="./img/logo.jpeg" alt="logo app reservas">
+    <h1>App de reservas</h1>
 </header>
